@@ -83,7 +83,7 @@ let canvas = document.querySelector('canvas.webgl');
         scene.add(projectGroup)
 
         
-        let arrayImg = ["/img/canvas.png","/img/connected-lines.png", "/img/opacity.png","/canvas.png","/connected-lines.png", "/opacity.png","/canvas.png","/connected-lines.png", "/opacity.png"]
+        let arrayImg = ["/img/canvas.png","/img/connected-lines.png", "/img/opacity.png","/img/canvas.png","/img/connected-lines.png", "/img/opacity.png","/img/canvas.png","/img/connected-lines.png", "/img/opacity.png"]
         let texture, material, mesh
         const basicMaterial = new THREE.MeshBasicMaterial()
         const geometry = new THREE.BoxGeometry(1, 1, 0.1)
